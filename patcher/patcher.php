@@ -1,10 +1,7 @@
 <?php
 
 // can be either 4.10.1.0 or 4.10.1.4
-$latest_version = "4.10.1.4";
-
-file_put_contents('get.txt', json_encode($_GET));
-file_put_contents('post.txt', json_encode($_POST));
+$latest_version = "4.10.1.0";
 
 if (isset($_POST['latest']))
 {
